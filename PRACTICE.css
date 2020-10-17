@@ -1,0 +1,72 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@keyframes blinker {
+  from{
+    opacity: :1:0;
+  }
+to{opacity: 0.0;}
+}
+.blink{
+  text-decoration: blink;
+  animation-name: blinker;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+}
+.container-fluid{
+background-image: url("nationalparks-vintage-cropped.jpg");
+background-size: cover;
+background-repeat:no-repeat;
+
+
+}
+.body{
+
+  height: 550px;
+background-color: #ff9933;
+  opacity: 0.8;
+
+}
+#header-text{
+  color: #b300b3;
+}
+#para-text{
+  color: purple;
+  font-weight: bold;
+  color: #b300b3;
+}
+#word{
+  position: relative;
+  font-size: 30px;
+  letter-spacing: 4px;
+  color: #b300b3;
+  margin-left: 10px;
+}
+.guessField{
+  position: absolute;
+  margin-top: -37px;
+  margin-left:220px;
+border: none;
+color: #b300b3;
+outline: none;
+}
+.submit_guess{
+  outline: none;
+  font-weight: bold;
+  color: white;
+  width: 80px;
+  height: 30px;
+  left: 110px;
+  margin-left:225px;
+  background-color: #b300b3;
+  border: none;
+  border-radius: 15px 5px;
+
+}
+.noBlink{
+  visibility: hidden;
+}
